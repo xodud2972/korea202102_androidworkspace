@@ -61,21 +61,18 @@ public class HeroAdapter extends BaseAdapter {
     //swing의 TableModel 에서의 getValueAt() 과 역할
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        //대체될 뷰가 없다면 즉 convertView가 null이라면 생성하고, null이 아니라면 기존의 뷰를 재사용하자.
-        View view = null;
-        if(convertView ==null){
-            //아이템으로 사용할 뷰를 반환하자 (우리의 경우 item_board의 인플레이션 결과물)
+        //대체될 뷰가 없다면 즉 convertView가  null이라면 생성하고, null이 아니라면 기존의 뷰를 재사용하자!!
+        View view=null;
+        if(convertView==null){
+            //아이템으로 사용할 뷰를 반환하자!!(우리의 경우 item_board 의 인플레이션 결과물...)
             view=layoutInflater.inflate(R.layout.item_board, null, false);
-
         }else{
             view=convertView;
         }
-
-        Log.d("HeroAdapter","view:"+view+",convertView:"+convertView);
+        Log.d("HeroAdapter", "view:"+view+",convertView:"+convertView);
 
         ImageView img=(ImageView)view.findViewById(R.id.img);
         TextView t_writer = (TextView)view.findViewById(R.id.t_writer);
-
         //이미지는 drawable에 있으므로, drawable안의 리소스를 접근할수 있어야 한다..
         Drawable d=res.getDrawable(drawables[position]);
         img.setImageDrawable(d);

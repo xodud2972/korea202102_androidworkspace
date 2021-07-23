@@ -2,17 +2,18 @@
 <members>
     <member>
         <name>유재석</name>
-        <phone>010-4993-2972</phone>
+        <phone>010-2222-3333</phone>
         <addr>한남동</addr>
     </member>
     <member>
         <name>박명수</name>
-        <phone>010-4454-2972</phone>
-        <addr>서래마을</addr>
+        <phone>010-5555-6666</phone>
+        <addr>압구정동</addr>
     </member>
     <member>
-        <name>정준하</name>
-        <phone>010-1234-2972</phone>
+        <name>하하</name>
+        <phone>010-7777-9999</phone>
         <addr>청담동</addr>
     </member>
+
 </members>

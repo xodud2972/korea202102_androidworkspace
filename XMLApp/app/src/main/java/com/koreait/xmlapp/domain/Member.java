@@ -5,7 +5,6 @@ public class Member {
     private String phone;
     private String addr;
 
-
     public String getName() {
         return name;
     }

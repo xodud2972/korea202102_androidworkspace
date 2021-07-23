@@ -12,16 +12,18 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_horizontal">
-            <Button
-                android:id="@+id/bt_prev"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Prev"/>
-            <Button
-                android:id="@+id/bt_auto"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Auto"/>
+
+        <Button
+            android:id="@+id/bt_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prev" />
+
+        <Button
+            android:id="@+id/bt_auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto" />
 
         <Button
             android:id="@+id/bt_next"
